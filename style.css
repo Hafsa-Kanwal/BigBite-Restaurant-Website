@@ -97,10 +97,10 @@ p{
     display: inline-block;
     padding: 0.625rem 1.875rem;
     line-height: 1.5625rem;
-    
+    color: white;
     background-color: var(--primary-color);
     border: 0.1875 solid var(--primary-color);
-    font-size: o.9375rem;
+    font-size: 0.9375rem;
     font-weight: 600;
     text-transform: capitalize;
     box-shadow: 0px 2px 10px -1px rgb(0, 0, 0 / 0.9);
@@ -109,10 +109,12 @@ p{
     -moz-transtion: all .4s ease-out 0s;
     transition: all .4s ease-out 0s;
 }
+
 .white-btn{
     
     padding: 0.625rem 1.875rem;
     line-height: 20px;
+   
     background-color: var(--white-color);
     border: 0.1875rem solid var(--white-color);
     font-size: 0.9375rem;
@@ -136,8 +138,9 @@ p{
     border-color: var(--primary-color);
 }
 .wrapper{
-    padding-top: 6.25rem;
+    padding-top: 6.215rem;
     padding-bottom: 8.25rem;
+   
     
 }
 .text-content{
@@ -323,10 +326,20 @@ border-radius: 0.9378rem;
 .testimonial-section .carousel-item{
     
     margin-top: 3rem;
-    padding: 10rem 3.125rem;
+    margin-left: 10rem;
+   
+    padding : 10rem 3.125rem ;
+    
+
     background-color: var(--white-color);
     border-radius: 0.9375rem;
     text-align: center;
+    
+    
+}
+
+.testimonial-section h2{
+    color: white;
 }
 .testimonial-section .carousel-item .carousel-caption img{
     max-width:5rem;
